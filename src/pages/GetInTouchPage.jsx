@@ -7,7 +7,7 @@ import Parallax from "./Parallax";
 import ContactCard from "../ContactCard";
 import sanityClient from "../sanityClient";
 import { useEffect, useState } from "react";
-import getintouch from "../assets/GetInTouch_highres.png";
+import getintouch from "../assets/getintouch_highres.png";
 
 
 
