@@ -40,8 +40,3 @@ cms/dist/
 # Others
 *.log
 
-# asset
-src/assets/*.mp4
-src/assets/*.png
-src/assets/*.jpg
-src/assets/*.jpeg

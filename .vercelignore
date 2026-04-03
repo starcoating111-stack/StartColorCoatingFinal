@@ -1,0 +1,41 @@
+# Version Control
+.git
+.gitignore
+
+# Dependencies
+node_modules
+
+# Development files
+.env.local
+.env.*.local
+.vscode
+.idea
+.DS_Store
+
+# Build outputs (Vercel builds its own)
+dist
+build
+*.log
+
+# Development
+.eslintcache
+.prettierignore
+
+# IDE
+*.swp
+*.swo
+*~
+.vim
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testing
+.nyc_output
+coverage
+
+# Documentation
+README.md
+CONTRIBUTING.md
+LICENSE
