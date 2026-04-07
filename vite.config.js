@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/starcolourscoating',
+  base: '/',
   server: {
     host: true,      // allows local network testing, remove if unnecessary
     port: 5173,      // fixed port for consistency
