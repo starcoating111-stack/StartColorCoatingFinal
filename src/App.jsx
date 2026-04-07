@@ -1,5 +1,6 @@
 import React, { useState, useEffect, Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Preloader from "./Preloader";
 import ScrollToTop from "./ScrollToTop";
 
@@ -50,6 +51,7 @@ function App() {
               <Route path="/portfolio-page" element={<PortfolioPage />} />
             </Routes>
           </Suspense>
+          <Analytics />
         </>
       )}
     </>
